@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background-image: linear-gradient(to right, #E65763, #340730);
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#container-tasks {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#header-tasks {
+  margin-top: 40px;
+}
+
+#form-add-tasks {
+  position: relative;
+}
+
+#form-add-tasks input {
+  width: 100%;
+  font-size: 18px;
+  box-sizing: border-box;
+  border: 1px solid #340730;
+  padding: 15px;
+  background: #FFFFFF;
+  color: #340730;
+}
+
+#form-add-tasks input::placeholder {
+  color: #340730;
+}
+
+#form-add-tasks input:focus {
+  outline: none;
+}
+
+#btn-add {
+  position: absolute;
+  width: 60px;
+  height: 53px;
+  background: #FFFFFF;
+  border: 1px solid #340730;
+  cursor: pointer;
+  transition: 5s;
+  top: 0;
+  right: 0;
+  padding-top: 3px;
+}
+
+#btn-add:hover {
+  background: #340730;
+  color: #FFFFFF;
+}
+
+ion-icon {
+  font-size: 25px;
+}
+
+#list-tasks {
+  list-style: none;
+  padding-left: 0;
+}
+
+#list-tasks li {
+  text-align: left;
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  border-bottom: 3px solid #340730;
+  background-color: #FFFFFF;
+  color: #340730;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  transition: 2s;
+  font-weight: bold;
+}
+
+#list-tasks li span {
+  font-size: 18px;
+}
+
+#list-tasks ion-icon {
+  width: 30px;
+  position: absolute;
+  transition: 2s;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.btn-done {
+  right: 40px;
+}
+
+.btn-done:hover {
+  background-color: #09e01b;
+  color: #FFFFFF;
+}
+
+.btn-remove {
+  right: 0;
+}
+
+.btn-remove:hover {
+  background-color: #eb0927;
+  color: #FFFFFF;
+}
+
+
+.hide {
+  display: none;
+}
+
+#list-tasks li.done {
+  background-color: #340730;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+
+
+
+
+/*#list-tasks li.box-tasks {
+  background-color: #340730;
+  color: #FFFFFF;
+  text-decoration: line-through;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
